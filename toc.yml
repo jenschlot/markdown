@@ -1,0 +1,146 @@
+toc:
+  properties:
+    subcollection: account
+    category: platform_services
+    audience: platform
+    href: /docs/account?topic=account-account-getting-started
+    console-page: /
+    product-page: https://ibm.com/cloud
+    path: account
+    label: Managing your account, resources, and access
+
+  topics:
+    navgroup: 
+      id: learn
+      topicgroup: 
+        label: Learning about accounts
+        topic: index.md
+          navtitle: My shortened title
+        topic: account_overview.md
+        topic: enterprise-video.md
+      topicgroup: 
+        label: Best practices
+        topic: bp_account.md
+        topic: bp_enterprise.md
+
+    navgroup: 
+      id: tutorial
+      topic: acct-getstart-tutorial.md
+      topic: enterprise-tutorial.md
+      topic: iam-quickstart.md
+
+    navgroup: 
+      id: howto
+      topicgroup: 
+        label: Securing your account
+        topic: iam-whatis.md
+        topicgroup: 
+            label: Understanding access roles and permissions
+            topic: iam-manageaccess.md
+            topic: iam-users_roles.md
+            topic: iam-infrastructureaccess.md
+            topic: iam-cfaccess.md
+        topicgroup: 
+            label: Setting up authentication
+            topic: iam-mfatypes.md
+            topic: iam-mfa.md
+            topic: iam-totp.md
+            topic: iam-external_mfa.md
+            topic: iam-securityquestions.md
+            topic: iam-login_fedid.md
+            topic: iam-idp-integration.md
+            topic: iam-connect_dedicated_id.md
+            topic: iam-saml-federation.md
+        topicgroup: 
+            label: Managing access
+            topic: iam-groups.md
+            topic: iam-roles-management.md
+            topic: iam-accessgroup_rules.md
+            topic: iam-mng-access.md
+            topic: iam-account_management.md
+            topic: iam-wildcard.md
+            topic: iam-public_access.md
+            topic: iam-mnginfra.md
+            topic: iam-migrated_permissions.md
+            topic: iam-mngcf.md
+            topic: iam-authorizations.md
+            topic: iam-policy-number.md
+        topicgroup: 
+            label: Managing identities 
+            topic: iam-userinv.md
+            topic: iam-remove-users.md
+            topic: iam-serviceid.md
+        topicgroup: 
+            label: Administering user settings
+            topic: iam-usersetting.md
+            topic: iam-update_status.md
+            topic: iam-specific_ip.md
+            topic: iam-vpn_password.md
+        topicgroup: 
+            label: Using API keys
+            topic: iam-apikeys.md
+            topic: iam-userid_keys.md
+            topic: iam-serviceid_keys.md
+            topic: iam-classic_infra_keys.md
+            topic: iam-apikey_iamtoken.md
+      topicgroup:
+        label: Working with resources
+        topicgroup:
+          label: Managing resource groups
+          topic: resourcegroups.md
+          topic: rg-access.md
+          topic: rg-delete.md
+        topicgroup: 
+          label: Tagging resources
+          topic: tagging_resources.md
+          topic: grant-tag-access.md
+      topic: service_in_other_regions.md
+      topic: using-services.md
+      topicgroup:
+        label: Connecting resources to apps
+        topic: connect_external_app.md
+        topic: s2s.md
+        topic: connecting_apps.md
+        topic: service_credentials.md
+
+    navgroup:
+      id: reference
+      topicgroup:
+        label: API reference
+        link: 
+          label: Catalog Management
+          href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
+        link: 
+          label: Enterprise Management
+          href: https://{Domainlabel}/apidocs/enterprise-apis/enterprise
+        link: 
+          label: Global Catalog
+          href: https://cloud.ibm.com/apidocs/resource-catalog/global-catalog
+        link: 
+          label: Global Search
+          href: https://cloud.ibm.com/apidocs/search
+        link: 
+          label: Global Tagging
+          href: https://cloud.ibm.com/apidocs/tagging
+      topicgroup:
+        label: Command reference
+        topic: /cli/cli-manage-catalogs-plugin
+        topic: /cli/cli-ibmcloud_commands_services
+        topic: /cli/cli-ibmcloud_commands_account
+        topic: /cli/cli-ibmcloud_enterprise
+        topic: /cli/cli-ibmcloud_commands_iam
+        topic: /cli/cli-ibmcloud_catalog
+      topic: crn.md
+      topic: iam-service-roles.md
+
+    navgroup:
+      id: help
+      topicgroup: 
+        label: FAQs
+        topic: faqs-account.md
+        topic: faqs-enterprise.md
+        topic: faqs-iam.md
+        topic: faqs-resources.md
+        topic: faqs-migration.md
+        topic: faqs-catalog-management.md
+      topic: known-issues.md
