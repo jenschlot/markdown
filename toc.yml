@@ -15,7 +15,6 @@ toc:
       topicgroup: 
         label: Learning about accounts
         topic: index.md
-          navtitle: My shortened title
         topic: account_overview.md
         topic: enterprise-video.md
       topicgroup: 
