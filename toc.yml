@@ -38,7 +38,8 @@ toc:
       topics:
       - topicgroup: 
         label: Securing your account
-        - topic: iam-whatis.md
+        topics: 
+        - iam-whatis.md
         - topicgroup: 
             label: Understanding access roles and permissions
             topics: 
@@ -96,6 +97,7 @@ toc:
             - iam-apikey_iamtoken.md
       - topicgroup:
         label: Working with resources
+        topics:
         - topicgroup:
           label: Managing resource groups
           topics: 
@@ -107,8 +109,8 @@ toc:
           topics: 
           - tagging_resources.md
           - grant-tag-access.md
-      - topic: service_in_other_regions.md
-      - topic: using-services.md
+      - service_in_other_regions.md
+      - using-services.md
       - topicgroup:
         label: Connecting resources to apps
         topics: 
@@ -122,6 +124,7 @@ toc:
       topics: 
       - topicgroup:
         label: API reference
+        links:
         - link: 
           label: Catalog Management
           href: https://cloud.ibm.com/apidocs/resource-catalog/private-catalog
