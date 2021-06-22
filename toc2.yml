@@ -23,7 +23,7 @@ toc:
       - topicgroup: 
         label: Best practices
         topics:
-        - bp_account.md,
+        - bp_account.md
         - bp_enterprise.md
 
     - navgroup: 
